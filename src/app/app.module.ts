@@ -12,7 +12,7 @@ import { SigninComponent } from './pages/signin/signin.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
 
-import { environment } from './../environments/environment';
+import { environment } from './../environments/environment.prod';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularFireAuthModule } from '@angular/fire/auth';
